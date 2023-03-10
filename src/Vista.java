@@ -179,8 +179,6 @@ public class Vista {
     }
 
     public String getPath(){
-        print("El path en el programa no ha funcionado por alguna razon, puedes ingresar tu ABSOLUTE PATH ahora" +
-                "o configurar el PATH en la clase Main");
 
         String path = scanner.nextLine();
         return path;
